@@ -94,6 +94,8 @@ Example of Dockerfile:
 ```dockerfile
 FROM node:14
 # alternatively you can use FROM strapi/base:latest
+# Or use `FROM arm64v8/node:14` on arm64 architecture
+
 
 # Set up working directory
 WORKDIR /app
