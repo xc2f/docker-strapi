@@ -87,14 +87,14 @@ To run an existing project, you can mount the project folder in the container at
 # Recommended way to deploy an existing strapi project to production using Docker
 
 To deploy an existing strapi project to production using Docker, it is recommended to build an image for your project
-based on [node v14](https://hub.docker.com/_/node).
+based on [node v18](https://hub.docker.com/_/node).
 
 Example of Dockerfile:
 
 ```dockerfile
-FROM node:14
+FROM node:18
 # alternatively you can use FROM strapi/base:latest
-# Or use `FROM arm64v8/node:14` on arm64 architecture
+# Or use `FROM arm64v8/node:18` on arm64 architecture
 
 
 # Set up working directory
