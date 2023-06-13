@@ -10,13 +10,12 @@ name: Publish Docker Image
 on:
   push:
     paths:
-      - 'release-versions/*'
+      - "release-versions/*"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
       - name: Get current repository
         uses: actions/checkout@v1
 
